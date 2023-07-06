@@ -1,0 +1,27 @@
+#include <stdlib.h>
+
+int main() {
+    int int1, int2;
+    float float1, float2;
+
+ 
+    scanf("%d %d", &int1, &int2);
+
+
+    scanf("%f %f", &float1, &float2);
+
+  
+    int intSum = int1 + int2;
+    int intDiff = int1 - int2;
+
+    float floatSum = float1 + float2;
+    float floatDiff = float1 - float2;
+
+    
+    printf("%d %d\n", intSum, intDiff);
+
+   
+    printf("%.1f %.1f\n", floatSum, floatDiff);
+
+    return 0;
+}
